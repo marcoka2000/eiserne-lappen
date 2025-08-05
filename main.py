@@ -8,6 +8,7 @@ import cups
 button = Button(2)
 led = LED(17)
 
+# Setup des Druckers, hier bei printer_name den Druckernamen aus CUPS eintragen
 conn = cups.Connection()
 printer_name = 'MFCL2710DN'
 
