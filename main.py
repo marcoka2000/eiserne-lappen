@@ -1,5 +1,4 @@
-from gpiozero import Button
-from gpiozero import LED
+from gpiozero import Button, LED
 from time import sleep
 import cups
 
