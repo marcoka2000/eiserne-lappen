@@ -25,7 +25,7 @@ while True:
     button.wait_for_press()
 
     # Druckt leeres PNG und gibt auf der Konsole eine Rückmeldung
-    conn.printFile(printer_name, '/home/pi/eiserne-lappen/white.png', ' ', {})
+    conn.printFile(printer_name, '/home/pi/eiserne-lappen/assets/white.png', ' ', {})
     print('Push, Push!')
 
     # LED gibt Rückmeldung, damit man weiß dass das Script noch ordnungsgemäß läuft
