@@ -18,6 +18,7 @@ for x in range(0, 3):
     led.on()
     sleep(0.5)
     led.off()
+    sleep(0.5)
 
 # Endlosschleife wartet auf Betätigung des Buttons
 while True:
