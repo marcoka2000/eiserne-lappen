@@ -11,6 +11,7 @@ led = LED(17)
 # Setup des Druckers, hier bei printer_name den Druckernamen aus CUPS eintragen
 conn = cups.Connection()
 printer_name = 'MFCL2710DN'
+cups.setUser('pi')
 
 
 # 3mal Blinken der LED, damit man weiß dass es betriebsbereit ist
